@@ -4,11 +4,13 @@ body {
     margin: 0 auto;
     background-color: #f78;
 }
-/flexibul images
+
+/* flexibul image */
 
 img {
   height: auto;
-      max-width: 50%;}
+      max-width: 50%;
+    }
 
 .all-caps {
   text-transformation: uppercase;
@@ -29,10 +31,11 @@ img {
   clear: both;
 }
 
-header,
-section{
+img{
   float: left;
-  width:52%;}
+  width:52%;
+margin-right: 2em;
+}
 
 
 #wrap {
@@ -48,6 +51,8 @@ section{
   #ingredients {
     !margin-left:20%;}
 
-  #instructions {
-    !margin-left:20%;}
+  #steps {
+    padding-top: 1em;
+    clear: both;
+  }
 }
