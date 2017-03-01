@@ -1,0 +1,53 @@
+body {
+    width: 100%;
+    max-width: 60em;
+    margin: 0 auto;
+    background-color: #f78;
+}
+/flexibul images
+
+img {
+  height: auto;
+      max-width: 50%;}
+
+.all-caps {
+  text-transformation: uppercase;
+}
+
+@media (min-width: 60em){
+
+.jump-link-top{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  white-space: nowrap;
+  padding: 0;
+  border:0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clear: both;
+}
+
+header,
+section{
+  float: left;
+  width:52%;}
+
+
+#wrap {
+  width:750px;
+  margin:0 auto;
+  background:#99c;}
+
+#main {
+  float:left;
+  width:250px;
+  background:#c9c;}
+
+  #ingredients {
+    !margin-left:20%;}
+
+  #instructions {
+    !margin-left:20%;}
+}
